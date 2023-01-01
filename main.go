@@ -62,7 +62,7 @@ func main() {
 
 	fmt.Println(nnnnnnWelcome to UpDown Game!)
 	fmt.Println(AI is thinking about the number...)
-	number = rand.Intn(100)
+	number = rand.Intn(100) + 1
 	chance = 10
 	status = false
 	fmt.Print(Done!)
